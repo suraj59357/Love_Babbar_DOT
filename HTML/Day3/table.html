@@ -1,11 +1,69 @@
+<!--
+    table
+        thead + tbody + tfoot
+        tr>th
+        tr>td
+        rowspan + colspan 
+        colgroup > <col span="" style="background-color: rgb(104, 104, 233);">
+        caption
+        style>border,border-collapse,bg-color,color,visibility,text-align
+
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Table</title>
+    <style>
+        table,tr,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
+
+    <table>
+
+        <colgroup>
+            <col span="" style="background-color: rgb(104, 104, 233);">
+            <col span="" style="background-color: aqua;">
+            <col span="" style="background-color: greenyellow;">
+            <col span="" style="background-color: burlywood;">
+        </colgroup>
+
+        <caption>Health Table</caption>
+        <tr>
+            <td rowspan="2">state of health</td>
+            <td colspan="2">fasting value</td>
+            <td>After eating</td>
+        </tr>
+        <tr>
+            <td>Minimum</td>
+            <td>Maximum</td>
+            <td>2 hours of eating</td>
+        </tr>
+        <tr>
+            <td>Healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>less than 140</td>
+        </tr>
+        <tr>
+            <td>Pre-Diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td>Diabetes</td>
+            <td>More than 126</td>
+            <td>N\A</td>
+            <td>More thann 200</td>
+        </tr>
+    </table>
     
 </body>
 </html>
