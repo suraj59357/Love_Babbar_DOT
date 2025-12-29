@@ -1,0 +1,16 @@
+.trans{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: aqua;
+    margin: 10px;
+}
+
+#translated{
+    transform:perspective(200px) translateZ(-100px);
+}
+
+#scaled{
+    margin-left: 200px;
+    transform: perspective(350px) scaleZ(4) rotateX(45deg) rotateY(45deg);
+}

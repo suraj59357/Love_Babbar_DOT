@@ -1,0 +1,95 @@
+/* 
+
+    CSS - a bit more
+    Gradient, Shadow, Positioning, transforms and Flexbox
+
+    *Gradient--means Color shifting ex: yellow to green, rainbow etc.(Linear,Radial,Conical gradient etc.)
+
+    1.Linear-Gradient
+    syntax:
+        1.bg-image:linear-gradient(direction,color1,color2);
+        2.Direction:
+            1.default direction
+            2.specific direction
+            3.using angles
+            4.using transparency 
+    background-image: linear-gradient(to right,red,blue);
+    background-image: linear-gradient(to top,red,blue);
+    background-image: linear-gradient(to top right,blue,rgb(0, 247, 255));
+
+    2.Radial gradient
+    syntax:
+        bg-image:radial-gradient(shape size at position,color1,color2);
+
+    3.Conic Gradient
+    syntax:
+        bg-image:conic-gradient([from angle][at position],color(degree),color(degree));
+
+    *Shadow
+        1.Box-shadow
+        2.text-shadow
+    
+    *CSS Dimension Properties
+        1.height
+        2.width
+        3.min-height
+        4.min-width
+        5.max-width
+        6.max-height        
+
+        Overflow properties
+            1.Visible
+            2.hidden
+            3.scroll
+            4.Auto
+
+    *CSS position Properties
+        1.static
+        2.relative
+        3.fixed
+        4.absolute
+        5.sticky
+
+    *CSS :2D Transform
+        1.translate()
+        2.rotate()
+        3.scaleX()
+        4.scaleY()
+        5.scale()
+        6.skewX()
+        7.skewY()
+        8.skew()
+        9.matrix()
+
+    *3D Transform
+
+
+
+*/
+
+.box{
+    color: white;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+   
+    background-image: linear-gradient(blue,rgb(0, 247, 255));
+    background-image: linear-gradient(orange,white,rgb(82, 82, 208),green);
+
+}
+
+.myDiv{
+    color:black;
+    border: 1px solid black ;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+
+    background-image: radial-gradient(orange,blue,white,green);
+}

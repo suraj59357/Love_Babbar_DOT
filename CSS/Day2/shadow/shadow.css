@@ -1,0 +1,17 @@
+h1{
+    text-shadow: 4px 2px 3px aqua,2px 2px 2px green
+}
+
+.mydiv{
+    background-color: aqua;
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 2px green;
+}
