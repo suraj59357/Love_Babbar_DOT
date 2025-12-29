@@ -1,0 +1,49 @@
+/* 
+    Flex-Container Properties:
+    display:flex
+        1.flex-direction:(row,row-reverse,col,col-reverse)
+        2.flex-wrap:(wrap,wrap-reverse,nowrap)
+        3.flex-flow:(shortland :row wrap,col wrap etc.)
+        4.justify-content:(main-axis:flex-start,flex-end,center,space-between,space-around,space-between etc.)
+        5.align-items:(Cross-axis:flex-start,flex-end,center,stretch,baseline)
+        gap:(gap,row-gap,col-gap)
+        6.align-content:(cross-axis::flex-start,flex-end,center,space-between,space-around,space-between etc.)
+
+    Flex-items Properties
+        1.Order:(1,2,3,4 etc.)
+        2.flex-grow :(1,2,3,4,5 etc.)
+        3.flex-shrink :(1,2,3,4,5 etc.)
+        4.flex-basis :(width: ex:10px;)
+        5.flex:(shorthand notation : 3,1,2,10px)
+        6.Align-self:(only one item align,stretch,flex-end,flex-start etc)
+*/
+
+.container{
+    height: 400px;
+    width: 500px;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: row;
+    /* flex-flow: column-reverse; */
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    /* gap: 10px; */
+
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+
+    /* text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
