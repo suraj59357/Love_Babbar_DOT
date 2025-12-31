@@ -1,0 +1,48 @@
+/* 
+    Grid: ek 2D dimensional layout hai 
+    (rows,columns & gaps etc.)
+
+    flexbox: specific to  positioning of content. and it is 1D layout
+    grid: specific to layout creation. 
+
+    shorthand:
+        1.grid-column-start
+        2.grid-column-end
+        3.grid-row-start
+        4.grid-row-end
+        5.shorthand:grid-coloumn,grid-row,grid area; 
+
+*/
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.container{
+    background-color: brown;
+    border: 2px solid black;
+    height: 500px;
+
+    display: grid;
+    grid-template-columns: 150px 1fr 150px;
+    grid-template-rows: 40px 1fr 40px;
+
+    gap: 5px;
+   
+}
+
+.box{
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+#box2{
+
+}
+
+#box1,#box5{
+    grid-column-start: 1;
+    grid-column-end:4;
+}
