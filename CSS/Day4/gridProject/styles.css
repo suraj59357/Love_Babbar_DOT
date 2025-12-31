@@ -1,0 +1,73 @@
+/* Card Component */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    height:350px;
+    width: 580px;
+    margin-left:650px;
+    margin-top: 200px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    
+}
+
+.box{
+
+    grid-row-start: 1;
+   
+
+    background-color: white;
+    border:2px solid black;
+    
+}
+
+#box1{
+   
+   
+    border-radius: 10px 0 0 10px;
+}
+
+#img{
+    height:340px;
+    width: 300px;
+    
+}
+#para{
+    font-size: 14px;
+}
+
+#price{
+
+    font-size: 40px;
+    color: rgb(10, 89, 10);
+}
+
+
+#box2{
+    border-radius: 0 10px 10px 0;
+    padding: 15px;
+}
+
+#cart{
+    height: 35px;
+    width: 230px;
+    color: white;
+    background-color: rgb(10, 89, 10);
+    border-radius: 5px;
+    
+}
+
+h2{
+    font-size:25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
