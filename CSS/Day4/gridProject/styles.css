@@ -39,6 +39,8 @@
 #img{
     height:340px;
     width: 300px;
+    object-fit: cover;
+    overflow: hidden;
     
 }
 #para{
