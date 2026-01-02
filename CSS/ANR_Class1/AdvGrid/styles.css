@@ -1,0 +1,35 @@
+/* 
+
+    Advanced grid concept:
+        1.fr unit (fraction unit)
+        2.repeat function ex:(100px 200px repeat(4,1fr)
+        3.grid-auto-rows:minmax();
+
+    Grid Properties:
+        1.Justify-content
+        2.Align-content
+These two are applied on parent container (only change the position)
+
+        3.Justify-items
+        4.Align-items
+These two are applied on Grid items (only change the width of the items)
+
+        5.Justify-self
+        6.Align-self
+These two are applied on Grid items (only one particular box)
+
+    Shorthand notation:
+        7.Palce-items
+        8.Place-self
+
+Homework:
+    1.Diff btw grid vs inline-grid.
+    2.Complex Grid Layouts
+    3.Nested and Overlapping of Grids Items
+
+Next-Topic:
+    1.Blogs
+    2.Media-query
+    3.Nested grids
+
+*/
