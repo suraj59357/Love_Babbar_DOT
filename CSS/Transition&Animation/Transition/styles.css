@@ -1,0 +1,58 @@
+/* 
+    Animation & Transition
+    0.Variables
+            EX: --variableName:(value);
+            for use ex: color:var(--variableName);
+            Homework:
+                :root vs *
+    
+        
+    1.Transition:
+        1.Transition-property 
+        2.Transition-duration
+        3.Transition-timing function
+        4.Transition-delay
+
+    2.Animation & KeyFrames:
+        1.Animation-name
+        2.Animation-duration
+        3.Animation-iteration-count
+        4.Animation-fill-mode
+        5.Animation-timing-function
+        6.Animation-delay
+        7.Animation-direction
+    
+*/
+
+.container{
+    height: 215px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: yellow;
+}
+
+.box{
+    height: 212px;
+    width: 212px;
+    border: 2px solid red;
+    background-color:green;
+    color: white;
+
+    animation-name: Suraj;
+    animation-duration: 2s;
+    animation-iteration-count:10;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    /* animation-direction: normal; */
+    /* animation-fill-mode: ; */
+}
+
+@keyframes Suraj{
+    from{
+        width: 212px;
+    }
+    to{
+        width: 100%;
+    }
+}
+
